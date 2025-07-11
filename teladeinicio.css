@@ -21,14 +21,22 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
     background-color: var(--roxoClarinho); 
+    padding: 0;
+
 }
 
-.quadroLogin {
-width: 35%;
-height: 70%;
+.container h1{
+    color:var(--roxoEscuro);
+    margin-bottom: 40px;
+}
+
+.quadroConta {
+width: 40%;
+height:60%;
 background-color: var(--roxoClaro);
 /* justify-content: center; */
 align-items: center;
@@ -36,76 +44,104 @@ display: flex;
 flex-direction: column;
 border-radius: 25px;
 border: 2px solid var(--roxoEscuro);
-padding: 15px;
+padding: 0px;
+padding-bottom: 30px;
 
 }
 
-.quadroLogin h3{
+.quadroConta h6{
+    margin-top:0;
     position: relative;
-    left: -130px;
-    margin-bottom: 10px;
+    left: -0px;
+     color: var(--roxoEscuro);
 }
 
-.quadroLogin h3, h1, a {
+.quadroConta h3{
+    margin-top:10;
+    position: relative;
+    left: -10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+     font-size: 25px;
+    
+   
+}
+
+.quadroConta h3, h1, a {
     color:var(--roxoEscuro);
 }
 
-.quadroLogin h1 {
+.container h1 {
    position: relative;
-   top: 10px;
-   font-size: 22px;
+   top: 50px;
+   font-size: 30px;
    font-family:'oswald';
 }
 
-.quadroLogin input{
+.quadroConta input{
     background-color: var(--roxoClarinho);
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     width: 50%;
     height: 5%;
     border: 2px solid var(--roxoEscuro);
 }
 
-.quadroLogin a{
+.quadroConta a{
     position: relative;
     background-color: var(--roxoClarinho);
-    width:20%;
+    width:40%;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid var(--roxoEscuro);
     text-align: center;
     font-family:'oswald';
-    bottom: 15px;
+    bottom: -110px;
     text-decoration:none;
 }
 
 
-.quadroLogin a:hover{
+.quadroConta a:hover{
     background-color: var(--roxoEscuro);
     color: var(--roxoClarinho);
     border: 2px solid var(--roxoClarinho);
     
 }
 
-#gato1{
-    top:385px;
-    left:915px;
-    height:90px;
+#gatodiferente{
+    margin-top:0;
+    position: relative;
+    left: -40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 70%;
+    font-size: 30px; 
+}
+
+#cuidado{
+    margin-top:10;
+    position: relative;
+    left: -10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+     font-size: 25px;
+}
+
+#gatopreto1{
+    top:465px;
+    left:930px;
+    height:200px;
     
 }
 
-#gato2{
-    top:110px;
-    left: 860px;
-    height: 90px;
+#gatopreto{
+    top:170px;
+    left:270px;
+    height:300px;
+    
 }
-
-#gato3{
-    top:250px;
-    left:510px;
-    height: 90px;
-}
-
 
 img{
     position:absolute;
