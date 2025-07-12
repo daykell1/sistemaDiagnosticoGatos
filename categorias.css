@@ -7,10 +7,10 @@ body {
 .container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #663399; /* roxo */
+    background-image: url('img/teladefundo.png');
 }
 
 .titulo-text {

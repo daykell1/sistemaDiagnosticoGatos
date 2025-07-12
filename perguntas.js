@@ -12,6 +12,7 @@ function leralimento() {
     <button onclick="lersomenteracao()">&#129146;</button>
     <img id="gatoRacao" src="img/gatoRacao.png" alt="gatoRacao">
 </div>`
+
     }else if(alimento=="NAO" || alimento=="NÃO"){
         console.log(classificacao)
         classificacao += 3
@@ -38,6 +39,7 @@ function lerjejum(){
         <button onclick="lervomitando()">&#129146;</button>
         <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
     </div>`
+    
     }else if(jejum == "SIM"){
     classificacao += 3
     console.log(classificacao)
