@@ -106,11 +106,13 @@ body {
     height:50px;
     font-size:30px;
     background-color: #fff;
+    border-radius: 35px;
+    left:320px;
 }
 
 button{
-    background-color: #3d2849;
-    color:#663399;
+    background-color: #f391eb;
+    color:#f35295;
     font-size:30px;
     width:100px;
     transition: 0.3s;
@@ -118,9 +120,32 @@ button{
 }
 
 button:hover{
-    background-color:#663399;
-    color:#3d2849;
+    background-color:#f35295;
+    color:#f391eb;
+}
+
+#gatopreguica{
+    top:300px;
+    left:320px;
+    height:290px;
+    
+}
+
+#patadegato{
+    top:530px;
+    left:535px;
+    height:90px;
+    
+}
+
+#gatocastracao{
+    top:300px;
+    left:1100px;
+    height:250px;
+    
 }
 
 
-
+img{
+    position:absolute;
+}

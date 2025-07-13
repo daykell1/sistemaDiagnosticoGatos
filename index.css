@@ -90,7 +90,7 @@ padding-bottom: 30px;
 
 .quadroConta a{
     position: relative;
-    background-color: var(--roxoClarinho);
+    background-color: var(--roxoClaro);
     width:40%;
     border-radius: 30px;
     padding: 10px;
@@ -108,6 +108,8 @@ padding-bottom: 30px;
     border: 2px solid var(--roxoClarinho);
     
 }
+
+
 
 #gatodiferente{
     margin-top:0;

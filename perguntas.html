@@ -8,22 +8,23 @@
 </head>
 <body>
     <div class="container">
+        <h1 class="titulo-text" id="titulodados"> Como está a alimentação do seu gatinho.</h1>
+        <br>
         <div class="quadrodadosgato"> 
-        <h1 class="titulo-text" id="titulodados"> Perguntas sobre a alimentação do seu gatinho.</h1>
-        <a href="perguntas02.html" class="seta-direita">&#129146;</a>
-        <a href="dadosdoGato.html" class="seta-esquerda">&#129144;</a>
         <div id="campoalimento">
             <p id="texto-pergunta">Seu gatinho está se alimentando?</p>
             <input id="alimento" type="text" placeholder="Digite aqui"></input>
             <script>
                 var nome = sessionStorage.getItem('nome');
-                document.getElementById("titulodados").innerHTML = `<h1 class="titulo-text" id="titulodados"> Perguntas sobre a alimentação de ${nome}.</h1>`
+                document.getElementById("titulodados").innerHTML = `<h1 class="titulo-text" id="titulodados"> Como está a alimentação de ${nome}.</h1>`
                 document.getElementById("texto-pergunta").innerHTML = `${nome} está se alimentando?`
             </script>
             <br>
             <button onclick="leralimento()">&#129146;</button>
         </div>
         </div>
+        <a href="perguntas02.html" class="seta-direita">&#129146;</a>
+            <a href="dadosdoGato.html" class="seta-esquerda">&#129144;</a>
     </div>
     <script src="perguntas.js"></script>
 </body>
