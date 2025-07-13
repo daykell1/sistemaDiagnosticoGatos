@@ -140,11 +140,19 @@ padding-bottom: 30px;
 
 #gatopreto{
     top:170px;
-    left:270px;
+    left:300px;
     height:300px;
     
 }
 
+#gatoandando{
+     top:600px;
+    left:570px;
+    height:80px;
+}
+
+
 img{
     position:absolute;
 }
+
