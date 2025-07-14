@@ -4,14 +4,25 @@ body {
     background-color:#663399;
 }
 
+@font-face {
+    font-family: 'oswald' ;
+    src: url('Oswald-Bold.ttf') format('truetype') ;
+   }
+
+ @font-face {
+    font-family: 'oswald1' ;
+    src: url('Oswald-Light.ttf') format(truetype)
+   }
+
 .container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-     background-image: url('img/teladefundo.png');
+    background-image: url('img/teladefundo.png');
 }
+
 
 .quadrodadosgato{
     position: relative;
@@ -22,26 +33,24 @@ body {
     padding: 8px;
     border: 2px solid var(--roxoEscuro);
     text-align: center;
-    font-family:'oswald';
     bottom: 0px;
     text-decoration:none;
     left: 450px;
     top: 50px; 
-    color: #3d2849;
     font-size: 42px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
-    text-align: center;
     font-family:'oswald';
     
 }
 
 .titulo-text {
-    color: #fff; /* texto branco */
+    color: #3d2849; /* texto branco */
     font-size: 42px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
     text-align: center;
+    font-family: 'oswald';
 }
 
 #texto-pergunta {
@@ -50,6 +59,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
     text-align: center;
+    font-family: 'oswald1';
 }
 
 .seta-direita {
@@ -72,11 +82,9 @@ body {
 
 #campoisolado{
     text-align:center;
-    justify-content:center;
     align-items:center;
     width:100%;
     padding:20px;
-    margin: 0 auto;
 }
 
 #isolado, #umidade, #locomocao,#ferimento,#urina,#localferimento,#corurina,#qtdurina,#fezes{
@@ -85,6 +93,7 @@ body {
     width:500px;
     height:50px;
     font-size:30px;
+    border-radius: 35px;
 }
 
 #aspectofezes,#miando,#jeitomiau,#espirrando,#espirrandofrequencia,#secrecao,#secrecaodescricao{
@@ -93,19 +102,21 @@ body {
     width:500px;
     height:50px;
     font-size:30px;
+    border-radius: ;
 }
 
 button{
-    background-color: yellow;
-    color:#663399;
+    background-color: #f35295;
+    color:#f391eb;
     font-size:30px;
     width:100px;
     transition: 0.3s;
+    border-radius: 35px;
 }
 
 button:hover{
-    background-color:#663399;
-    color:yellow;
+    background-color: #f391eb;
+    color:#f35295;
 }
 
 img{

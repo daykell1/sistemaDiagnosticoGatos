@@ -128,7 +128,7 @@ padding-bottom: 30px;
     margin-bottom: 15px;
     padding: 10px;
     width: 80%;
-     font-size: 25px;
+    font-size: 25px;
 }
 
 #gatopreto1{
@@ -140,9 +140,9 @@ padding-bottom: 30px;
 
 #gatopreto{
     top:170px;
-    left:300px;
+    left:160px;
     height:300px;
-    
+    font-size: 30px; 
 }
 
 #gatoandando{

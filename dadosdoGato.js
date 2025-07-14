@@ -1,4 +1,8 @@
-var nome, castrado, sexo, idade, peso;
+var nome, castrado, sexo, idade, peso, gatoescondido;
+function lergatoescondido(){
+    
+}
+
 function lernome() {
     nome = document.getElementById("nome").value;
     sessionStorage.setItem('nome',nome);
