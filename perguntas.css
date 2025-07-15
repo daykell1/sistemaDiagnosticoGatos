@@ -63,26 +63,20 @@ body {
     text-align: center;
 }
 
-.seta-direita {
+.seta-direita img{
     position: absolute;
     bottom: 20px; /* distância do fundo da tela */
-    right: 20px; /* distância da direita da tela */
-    font-size: 50px;
-    color: #fff; /* cor do ícone */
+    right: 100px; /* distância da direita da tela */
     text-decoration: none;
-    width:500px;
-    height:150px;
+    height: 150px;
 }
 
-.seta-esquerda {
+.seta-esquerda img{
     position: absolute;
     bottom: 20px; /* distância do fundo da tela */
-    left: 20px; /* distância da direita da tela */
-    font-size: 50px;
-    color: #fff; /* cor do ícone */
+    left: 100px; /* distância da direita da tela */
     text-decoration: none;
-     width:500px;
-    height:150px;
+    height: 150px;
 }
 
 #campoalimento{

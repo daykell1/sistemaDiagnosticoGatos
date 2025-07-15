@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#663399;
+    background-image: url('img/teladefundo.png');
 }
 
 @font-face {
@@ -17,10 +17,10 @@ body {
 .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+   
     justify-content: center;
     align-items: center;
-    background-image: url('img/teladefundo.png');
+    padding-bottom: 0px;
 }
 
 
@@ -64,16 +64,15 @@ body {
 
 .seta-direita {
     position: absolute;
-    bottom: 20px; /* distância do fundo da tela */
     right: 20px; /* distância da direita da tela */
     font-size: 24px;
     color: #fff; /* cor do ícone */
     text-decoration: none;
+
 }
 
 .seta-esquerda {
     position: absolute;
-    bottom: 20px; /* distância do fundo da tela */
     left: 20px; /* distância da direita da tela */
     font-size: 24px;
     color: #fff; /* cor do ícone */
@@ -85,6 +84,7 @@ body {
     align-items:center;
     width:100%;
     padding:20px;
+    margin-bottom: 0px;
 }
 
 #isolado, #umidade, #locomocao,#ferimento,#urina,#localferimento,#corurina,#qtdurina,#fezes{

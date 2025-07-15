@@ -121,6 +121,9 @@ button{
     width:100px;
     transition: 0.3s;
     border-radius: 35px;
+    position: relative;
+    left:-15px;
+    
 }
 
 button:hover{
@@ -129,15 +132,15 @@ button:hover{
 }
 
 #gatopreguica{
-    top:300px;
-    left:320px;
+    top:100px;
+    left:-120px;
     height:290px;
     
 }
 
 #patadegato{
-    top:530px;
-    left:535px;
+    top:350px;
+    left:100px;
     height:90px;
    
     
