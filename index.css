@@ -13,6 +13,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
     font-family: 'oswald';
 }
 
@@ -22,30 +23,33 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     background-color: var(--roxoClarinho); 
-    padding: 0;
+    padding: 0px;
+    padding-top: 0px;
 
 }
 
-.container h1{
-    color:var(--roxoEscuro);
-    margin-bottom: 40px;
+#SistemaDG{
+    width: 40%;
+    height:40%;
+    position: absolute;
+    top:-50px;
 }
 
 .quadroConta {
 width: 40%;
 height:60%;
 background-color: var(--roxoClaro);
-/* justify-content: center; */
+justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: column;
 border-radius: 25px;
 border: 2px solid var(--roxoEscuro);
 padding: 0px;
-padding-bottom: 30px;
+padding-bottom: 50px;
+
 
 }
 
@@ -72,22 +76,6 @@ padding-bottom: 30px;
     color:var(--roxoEscuro);
 }
 
-.container h1 {
-   position: relative;
-   top: 50px;
-   font-size: 30px;
-   font-family:'oswald';
-}
-
-.quadroConta input{
-    background-color: var(--roxoClarinho);
-    border-radius: 30px;
-    padding: 10px;
-    width: 50%;
-    height: 5%;
-    border: 2px solid var(--roxoEscuro);
-}
-
 .quadroConta a{
     position: relative;
     background-color: var(--roxoClaro);
@@ -109,46 +97,18 @@ padding-bottom: 30px;
     
 }
 
-
-
-#gatodiferente{
-    margin-top:0;
-    position: relative;
-    left: -40px;
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 70%;
-    font-size: 30px; 
-}
-
-#cuidado{
-    margin-top:10;
-    position: relative;
-    left: -10px;
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 80%;
-    font-size: 25px;
-}
-
 #gatopreto1{
-    top:465px;
+    top: 475px;
     left:930px;
     height:200px;
     
 }
 
 #gatopreto{
-    top:170px;
-    left:160px;
-    height:300px;
+    top:25px;
+    left:-40px;
+    height:500px;
     font-size: 30px; 
-}
-
-#gatoandando{
-     top:600px;
-    left:570px;
-    height:80px;
 }
 
 
