@@ -116,3 +116,69 @@ img{
     position:absolute;
 }
 
+.gato {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-image: url('img/gato.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: andar 30s linear infinite;
+}
+
+@keyframes andar {
+  0% {
+    left: -100px;
+    bottom:20px;
+    transform: scaleX(1);
+  }
+
+  25% {
+    left: 100vw;
+    bottom:20px;
+    transform: scaleX(1); /* Indo para a direita */
+  }
+
+  26% {
+    bottom:300px;
+    left:100vw;
+    transform: scaleX(-1); /* Indo para a direita */
+  }
+
+
+  50% {
+    bottom:300px;
+    transform: scaleX(-1);
+    left: -100px; /* Vira para voltar */
+  }
+
+  51% {
+    bottom:600px;
+    transform: scaleX(1);
+    left: -100px; /* Vira para voltar */
+  }
+
+  75%{
+    bottom:600px;
+    transform: scaleX(1);
+    left:100vw;
+  }
+
+  76%{
+    bottom:20px;
+    left: 100vw;
+    transform: scaleX(-1);
+  }
+
+
+
+  100% {
+    left: -100px;
+    bottom:20px;
+    transform: scaleX(-1);
+  }
+}
+
+
