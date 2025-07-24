@@ -66,7 +66,7 @@ body {
 .seta-direita img{
     position: absolute;
     bottom: 20px; /* distância do fundo da tela */
-    right: 100px; /* distância da direita da tela */
+    left: 1100px; /* distância da direita da tela */
     text-decoration: none;
     height: 150px;
 }
@@ -74,7 +74,7 @@ body {
 .seta-esquerda img{
     position: absolute;
     bottom: 20px; /* distância do fundo da tela */
-    left: 100px; /* distância da direita da tela */
+    left: 155px; /* distância da direita da tela */
     text-decoration: none;
     height: 150px;
 }
@@ -155,14 +155,14 @@ img{
 }
 
 #gatopreguica{
-    top:300px;
+    top:200px;
     left:320px;
     height:290px;
     
 }
 
 #patadegato{
-    top:530px;
+    top:470px;
     left:535px;
     height:90px;
     

@@ -10,7 +10,7 @@ function leralimento() {
     <input id="somenteracao" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lersomenteracao()">&#129146;</button>
-    <img id="gatoRacao" src="img/gatoRacao.png" alt="gatoRacao">
+    
 </div>`
 
     }else if(alimento=="NAO" || alimento=="NÃO"){
@@ -23,7 +23,7 @@ function leralimento() {
     <input id="jejum" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerjejum()">&#129146;</button>
-    <img id="gatoComendo" src="img/gatoComendo.png" alt="gatoComendo">
+    
 </div>`
     }
 }
@@ -37,7 +37,7 @@ function lerjejum(){
         <input id="vomitando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lervomitando()">&#129146;</button>
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
+       
     </div>`
     
     }else if(jejum == "SIM"){
@@ -49,7 +49,7 @@ function lerjejum(){
         <input id="qtdjejum" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerqtdjejum()">&#129146;</button>
-        <img id="gatoTriste" src="img/gatoTriste.png" alt="gatoTriste">
+       
     </div>`
     }
 }
@@ -64,8 +64,8 @@ function lerqtdjejum(){
         <input id="vomitando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lervomitando()">&#129146;</button>
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
+      
+        
     </div>`
 }
 
@@ -80,7 +80,7 @@ function lersomenteracao(){
         <input id="tipoalimentos" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lertipoalimentos()">&#129146;</button>
-        <img id="gatoNamm" src="img/gatoNamm.png" alt="gatoNamm">
+        
     </div>`
     }else if(somenteracao == "SIM"){
         document.getElementById("camposomenteracao").innerHTML = `
@@ -89,7 +89,7 @@ function lersomenteracao(){
         <input id="vomitando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lervomitando()">&#129146;</button>
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
+        
     </div>`
     }
 }
@@ -102,7 +102,7 @@ function lertipoalimentos(){
         <input id="vomitando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lervomitando()">&#129146;</button>
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
+        
     </div>`
 }
 
@@ -120,7 +120,7 @@ function lervomitando(){
         <input id="tipovomito" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lertipovomito()">&#129146;</button>
-        <img id="gatoMorcego" src="img/gatoMorcego.png" alt="gatoMorcegp">
+     
     </div>`
     }
 }

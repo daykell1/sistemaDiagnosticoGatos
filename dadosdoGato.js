@@ -12,9 +12,10 @@ function lernome() {
     <input id="castrado" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lercastrado()">&#129146;</button>
-    <img id="gatoCastracao" src="img/gatoCastracao.png" alt="gatoCastracao">
+    
 </div>`
 }
+//  <img id="gatoCastracao" src="img/gatoCastracao.png" alt="gatoCastracao"></img>
 
 function lercastrado() {
     castrado = document.getElementById("castrado").value.toUpperCase();
@@ -24,7 +25,7 @@ function lercastrado() {
     <input id="sexo" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lersexo()">&#129146;</button>
-    <img id="gatoSexo" src="img/gatoSexo.png" alt="gatoSexo">
+ 
 </div>`
 }
 
@@ -36,7 +37,7 @@ function lersexo() {
     <input id="idade" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="leridade()">&#129146;</button>
-    <img id="gatoEvolucao" src="img/gatoEvolucao.png" alt="gatoEvolucao">
+    
 </div>`
 }
 
@@ -48,7 +49,7 @@ function leridade() {
     <input id="peso" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerpeso()">&#129146;</button>
-    <img id="gatoGordinho" src="img/gatoGordinho.png" alt="gatoGordinho">
+   
 </div>`
 }
 
