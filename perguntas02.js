@@ -15,7 +15,7 @@ function lerisolado(){
     <input id="umidade" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerumidade()">&#129146;</button>
-    <img id="gatoNamm" src="img/gatoNamm.png" alt="gatoNamm">
+   
 </div>`
     }else if(isolado == "NAO" || isolado == "NÃO"){
         document.getElementById("campoisolado").innerHTML = `
@@ -24,7 +24,7 @@ function lerisolado(){
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerlocomocao()">&#129146;</button>
-   <img id="gatozoiudo" src="img/gatozoiudo.png" alt="gatozoiudo">
+   
 </div>`
     }
 }
@@ -44,7 +44,7 @@ function lerumidade(){
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerlocomocao()">&#129146;</button>
-    <img id="gatozoiudo" src="img/gatozoiudo.png" alt="gatozoiudo">
+    
 </div>`
 }
 
@@ -59,7 +59,7 @@ function lerlocomocao(){
         <input id="ferimento" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerferimento()">&#129146;</button>
-        <img id="gatoAbreBoca" src="img/gatoAbreBoca.png" alt="gatoAbreBoca">
+       
     </div>`
     }else if(locomocao == "NAO" || locomocao == "NÃO"){
         document.getElementById("campolocomocao").innerHTML = `
@@ -68,7 +68,7 @@ function lerlocomocao(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
-        <img id="gatoAbreBoca" src="img/gatoAbreBoca.png" alt="gatoAbreBoca">
+        
     </div>`
     }
 }
@@ -84,7 +84,7 @@ function lerferimento(){
         <input id="localferimento" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerlocalferimento()">&#129146;</button>
-        <img id="gatoDoente" src="img/gatoDoente.png" alt="gatoDoente">
+       
     </div>`
     }else if(ferimento == "NAO" || ferimento == "NÃO"){
         document.getElementById("campoferimento").innerHTML = `
@@ -93,7 +93,7 @@ function lerferimento(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
-        <img id="gatoComCopoNaCabeca" src="img/gatoComCopoNaCabeca.png" alt="gatoComCopoNaCabeca">
+       
     </div>`
     }
 }
@@ -106,7 +106,7 @@ function lerlocalferimento(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
-        <img id="gatoComCopoNaCabeca" src="img/gatoComCopoNaCabeca.png" alt="gatoComCopoNaCabeca">
+       
     </div>`
 }
 
@@ -121,7 +121,7 @@ function lerurina(){
         <input id="corurina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lercorurina()">&#129146;</button>
-        <img id="gatoTriste" src="img/gatoTriste.png" alt="gatoTriste">
+        
     </div>`
     }else if (urina == "NAO" || urina == "NÃO"){
         document.getElementById("campourina").innerHTML = `
@@ -130,7 +130,7 @@ function lerurina(){
         <input id="fezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerfezes()">&#129146;</button>
-        <img id="gatoCastracao" src="img/gatoCastracao.png" alt="gatoCastracao">
+       
     </div>`
     }
 }
@@ -151,7 +151,7 @@ function lercorurina(){
         <input id="qtdurina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerqtdurina()">&#129146;</button>
-        <img id="gatosComputador" src="img/gatosComputador.png" alt="gatosComputador">
+        
     </div>`
 }
 
@@ -167,7 +167,7 @@ function lerqtdurina(){
         <input id="fezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerfezes()">&#129146;</button>
-        <img id="gatoCastracao" src="img/gatoCastracao.png" alt="gatoCastracao">
+       
     </div>`
 }
 
@@ -182,7 +182,7 @@ function lerfezes(){
         <input id="aspectofezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="leraspectofezes()">&#129146;</button>
-        <img id="gatodeoculos" src="img/gatodeoculos.png" alt="gatodeoculos">
+       
     </div>`
     }else if(fezes == "NAO" || fezes == "NÃO"){
         document.getElementById("campofezes").innerHTML = `
@@ -203,7 +203,7 @@ function leraspectofezes(){
         <input id="miando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lermiando()">&#129146;</button>
-        <img id="gatoAbreBoca" src="img/gatoAbreBoca.png" alt="gatoAbreBoca">
+        
     </div>`
 }
 
@@ -227,7 +227,7 @@ function lermiando(){
         <input id="espirrando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrando()">&#129146;</button>
-        <img id="gatoDormindo" src="img/gatoDormindo.png" alt="gatoDormindo">
+        
     </div>`
     }
 }
@@ -240,7 +240,7 @@ function lerjeitomiau(){
         <input id="espirrando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrando()">&#129146;</button>
-        <img id="gatoDormindo" src="img/gatoDormindo.png" alt="gatoDormindo">
+       
     </div>`
 }
 
@@ -255,7 +255,7 @@ function lerespirrando(){
         <input id="espirrandofrequencia" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrandofrequencia()">&#129146;</button>
-        <img id="gatoDeChapeueOculos" src="img/gatoDeChapeueOculos.png" alt="gatoDeChapeueOculos">
+       
     </div>`
     }else if(espirrando == "NAO" || espirrando == "NÃO"){
         document.getElementById("campoespirrando").innerHTML = `
@@ -264,7 +264,7 @@ function lerespirrando(){
         <input id="secrecao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecao()">&#129146;</button>
-        <img id="gatoNamm" src="img/gatoNamm.png" alt="gatoNamm">
+        
     </div>`
     }
 }
@@ -281,7 +281,7 @@ function lerespirrandofrequencia(){
         <input id="secrecao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecao()">&#129146;</button>
-        <img id="gatoNamm" src="img/gatoNamm.png" alt="gatoNamm">
+       
     </div>`
 }
 
@@ -296,7 +296,7 @@ function lersecrecao(){
         <input id="secrecaodescricao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecaodescricao()">&#129146;</button>
-        <img id="gatoNamm" src="img/gatoNamm.png" alt="gatoNamm">
+       
     </div>`
     }else if(secrecao == "NÃO" || secrecao == "NAO"){
         sessionStorage.setItem('classificacao',classificacao);
