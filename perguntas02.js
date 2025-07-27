@@ -218,7 +218,7 @@ function lermiando(){
         <input id="jeitomiau" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerjeitomiau()">&#129146;</button>
-        <img id="gatoAbreBoca" src="img/gatoAbreBoca.png" alt="gatoAbreBoca">
+       
     </div>`
     }else if(miando == "NAO" || miando == "NÃO"){
         document.getElementById("campomiando").innerHTML = `
