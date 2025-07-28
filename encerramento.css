@@ -1,6 +1,17 @@
+ @font-face {
+    font-family: 'oswald' ;
+    src: url('Oswald-Bold.ttf') format('truetype') ;
+   }
+
+ @font-face {
+    font-family: 'oswald1' ;
+    src: url('Oswald-Light.ttf') format(truetype)
+   }
+
 body {
     margin: 0;
     padding: 0;
+    background-image: url('img/teladefundo.png')
 }
 
 .container {
@@ -10,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #663399; /* roxo */
+   
 }
 
 .welcome-text {
@@ -20,16 +31,17 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
     text-align: center;
     z-index: 2;
+    font-family: "oswald";
 }
 
 
-.seta-esquerda {
+.seta-esquerda img{
     position: absolute;
     bottom: 20px; /* distância do fundo da tela */
-    left: 20px; /* distância da direita da tela */
-    font-size: 24px;
-    color: #fff; /* cor do ícone */
+    left: 100px; /* distância da direita da tela */
+    font-size: 100px;
     text-decoration: none;
+    height: 150px;
 }
 
 /* imagem de gato*/
