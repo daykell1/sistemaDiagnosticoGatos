@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'oswald';
+    bottom: 0%; 
 }
 
 .container {
@@ -24,19 +25,33 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--roxoClarinho); 
+    bottom: 0%; 
+    
 }
 
+#SistemaDG{
+    width: 40%;
+    height:40%;
+    position: absolute;
+    top:50px;
+}
+
+
 .quadroLogin {
-width: 35%;
-height: 70%;
-background-color: var(--roxoClaro);
-/* justify-content: center; */
-align-items: center;
-display: flex;
-flex-direction: column;
-border-radius: 25px;
-border: 2px solid var(--roxoEscuro);
-padding: 15px;
+    top: 100px;
+    width: 35%;
+    height: 70%;
+    background-color: var(--roxoClaro);
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid var(--roxoEscuro);
+    padding: 15px;
+    background-image:url(img/Login.gif);
+    bottom: -10%;
+
 
 }
 
@@ -44,6 +59,8 @@ padding: 15px;
     position: relative;
     left: -130px;
     margin-bottom: 10px;
+    border-radius: 30px;
+    font-size: 150%;
 }
 
 .quadroLogin h3, h1, a {
@@ -56,6 +73,8 @@ padding: 15px;
    font-size: 22px;
    font-family:'oswald';
 }
+
+
 
 .quadroLogin input{
     background-color: var(--roxoClarinho);
@@ -87,23 +106,10 @@ padding: 15px;
     
 }
 
-#gato1{
-    top:385px;
-    left:915px;
-    height:90px;
-    
-}
-
-#gato2{
-    top:110px;
-    left: 860px;
-    height: 90px;
-}
-
-#gato3{
-    top:250px;
-    left:510px;
-    height: 90px;
+#gatoDoRabo{
+     top: 435px;
+    left: 802px;
+    height: 300px;
 }
 
 
