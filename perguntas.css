@@ -1,3 +1,11 @@
+:root{
+    /* Cores da tela de login */
+    --roxoClarinho: #bba9e0;
+    --roxoClaro: #aa8ce5;
+    --roxoEscuro: #3d2849;
+}
+
+
 body {
     margin: 0;
     padding: 0;
