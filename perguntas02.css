@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('img/teladefundo.png');
+     background-image: url('img/backgroundDePata.png');
 }
 
 @font-face {
@@ -49,6 +49,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
     font-family:'oswald';
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.75);
     
 }
 
@@ -148,12 +149,14 @@ button:hover{
     color:#f35295;
 }
 
+
 img{
     position:absolute;
     align-self: center;
     top: 350px; 
     left:650px;
 }
+
 
 /* #gatoDormindo{
     top: 20px; 

@@ -12,6 +12,7 @@ function lernome() {
     <input id="castrado" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lercastrado()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gato_transparente.gif" alt="gatoTransparente"></img>
     
 </div>`
 }
@@ -25,6 +26,7 @@ function lercastrado() {
     <input id="sexo" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lersexo()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gato_transparente.gif" alt="gatoTransparente"></img>
  
 </div>`
 }
@@ -37,6 +39,7 @@ function lersexo() {
     <input id="idade" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="leridade()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gato_transparente.gif" alt="gatoTransparente"></img>
     
 </div>`
 }
@@ -49,6 +52,7 @@ function leridade() {
     <input id="peso" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerpeso()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gato_transparente.gif" alt="gatoTransparente"></img>
    
 </div>`
 }

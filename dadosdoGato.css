@@ -18,7 +18,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('img/teladefundo.png')
+     background-image: url('img/backgroundDePata.png');
 }
 
 .container {
@@ -48,6 +48,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra */
     font-family:'oswald';
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.75);
     
 }
 
@@ -131,6 +132,8 @@ button:hover{
     color:#f391eb;
 }
 
+
+
 #gatopreguica{
     top:100px;
     left:-120px;
@@ -146,16 +149,10 @@ button:hover{
     
 }
 
-#gatoCastracao{
-    top:300px;
-    left:600px;
-    height: 200px;;
-}
-
-#gatoEvolucao{
-    top:300px;
-    left:600px;
-    height: 200px;;
+#gatoTransparente{
+     top:372px;
+    left:140px;
+    height:100px;
 }
 
 img{
