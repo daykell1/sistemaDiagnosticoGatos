@@ -83,6 +83,7 @@ body {
     width: 50%;
     height: 5%;
     border: 2px solid var(--roxoEscuro);
+    z-index:3;
 }
 
 .quadroLogin a{
