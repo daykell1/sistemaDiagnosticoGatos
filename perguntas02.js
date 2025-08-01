@@ -15,6 +15,7 @@ function lerisolado(){
     <input id="umidade" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerumidade()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
    
 </div>`
     }else if(isolado == "NAO" || isolado == "NÃO"){
@@ -24,6 +25,7 @@ function lerisolado(){
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerlocomocao()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
    
 </div>`
     }
@@ -44,6 +46,7 @@ function lerumidade(){
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
     <button onclick="lerlocomocao()">&#129146;</button>
+     <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
     
 </div>`
 }
@@ -59,6 +62,7 @@ function lerlocomocao(){
         <input id="ferimento" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerferimento()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(locomocao == "NAO" || locomocao == "NÃO"){
@@ -68,6 +72,7 @@ function lerlocomocao(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
     }
@@ -84,6 +89,7 @@ function lerferimento(){
         <input id="localferimento" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerlocalferimento()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(ferimento == "NAO" || ferimento == "NÃO"){
@@ -93,6 +99,7 @@ function lerferimento(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }
@@ -106,6 +113,7 @@ function lerlocalferimento(){
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerurina()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
 }
@@ -121,6 +129,7 @@ function lerurina(){
         <input id="corurina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lercorurina()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
     }else if (urina == "NAO" || urina == "NÃO"){
@@ -130,6 +139,7 @@ function lerurina(){
         <input id="fezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerfezes()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }
@@ -151,6 +161,7 @@ function lercorurina(){
         <input id="qtdurina" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerqtdurina()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
 }
@@ -167,6 +178,7 @@ function lerqtdurina(){
         <input id="fezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerfezes()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
 }
@@ -182,6 +194,7 @@ function lerfezes(){
         <input id="aspectofezes" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="leraspectofezes()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(fezes == "NAO" || fezes == "NÃO"){
@@ -191,6 +204,7 @@ function lerfezes(){
         <input id="miando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lermiando()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
     </div>`
     }
 }
@@ -203,6 +217,7 @@ function leraspectofezes(){
         <input id="miando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lermiando()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
 }
@@ -218,6 +233,7 @@ function lermiando(){
         <input id="jeitomiau" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerjeitomiau()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(miando == "NAO" || miando == "NÃO"){
@@ -227,6 +243,7 @@ function lermiando(){
         <input id="espirrando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrando()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
     }
@@ -240,6 +257,7 @@ function lerjeitomiau(){
         <input id="espirrando" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrando()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
 }
@@ -255,6 +273,7 @@ function lerespirrando(){
         <input id="espirrandofrequencia" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lerespirrandofrequencia()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(espirrando == "NAO" || espirrando == "NÃO"){
@@ -264,6 +283,7 @@ function lerespirrando(){
         <input id="secrecao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecao()">&#129146;</button>
+        <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
     }
@@ -281,6 +301,7 @@ function lerespirrandofrequencia(){
         <input id="secrecao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecao()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
 }
@@ -296,6 +317,7 @@ function lersecrecao(){
         <input id="secrecaodescricao" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="lersecrecaodescricao()">&#129146;</button>
+         <img id="gatoTransparente" src="img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
     }else if(secrecao == "NÃO" || secrecao == "NAO"){
