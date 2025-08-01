@@ -101,6 +101,7 @@ body {
     width:100%;
     padding:20px;
     margin: 0 auto;
+   
 }
 
 #nome,#sexo,#castrado,#idade,#peso{
@@ -133,6 +134,10 @@ button:hover{
 }
 
 
+.nome-destaque {
+    color: #ee597f; /* ou qualquer cor que você quiser */
+    font-weight: bold;
+  }
 
 #gatopreguica{
     top:100px;
