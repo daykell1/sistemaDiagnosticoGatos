@@ -68,7 +68,7 @@ function lerpeso() {
             else if (peso > 6) document.getElementById("campopeso").innerHTML = `<h1 class="titulo-text" id = "campopeso">${nome1} está acima do peso</h1>`;
         }else if(sexo == "FÊMEA" || sexo == "FEMEA" || sexo == "F"){
             if (peso >= 3 && peso <=5) document.getElementById("campopeso").innerHTML = `<h1 class="titulo-text" id = "campopeso">${nome1} está na faixa normal de peso</h1>`;        
-            else if (peso < 3) document.getElementById("campopeso").innerHTML = `<h1 class="titulo-text" id = "campopeso">${nome} está abaixo do peso</h1>`;
+            else if (peso < 3) document.getElementById("campopeso").innerHTML = `<h1 class="titulo-text" id = "campopeso">${nome1} está abaixo do peso</h1>`;
             else if (peso > 5) document.getElementById("campopeso").innerHTML = `<h1 class="titulo-text" id = "campopeso">${nome1} está acima do peso</h1>`;
         }
     }else{
