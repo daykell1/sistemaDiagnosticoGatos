@@ -41,6 +41,8 @@ else if (situacao == "leve")
                     color:green;
                 }
             </style>
-            <img id="happyCat" src="img/happyCat.png" alt="happyCat">
+             <video autoplay loop  playsinline style="width: 400px;"
+             id="videoChroma" src="./img/download.mp4"></video>
         </div>`
 document.getElementById("titulodados").innerHTML = `Situação de ${nome}:`
+
