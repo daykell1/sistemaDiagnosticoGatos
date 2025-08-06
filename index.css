@@ -88,7 +88,7 @@ z-index:3;
     border: 2px solid var(--roxoEscuro);
     text-align: center;
     font-family:'oswald';
-    bottom: -110px;
+    bottom: -130px;
     text-decoration:none;
 }
 
@@ -112,6 +112,27 @@ z-index:3;
     left: 55px;
     height:500px;
     font-size: 30px; 
+}
+
+#cuida{
+ position: relative;
+    background-color: var(--roxoClaro);
+    width:30%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid var(--roxoEscuro);
+    font-family:'oswald';
+    bottom: -110px;
+    text-decoration:none;
+    top:-405px;
+    left: 500px;
+
+}
+
+#cuida:hover{
+  background-color: var(--roxoEscuro);
+    color: var(--roxoClarinho);
+    border: 2px solid var(--roxoClarinho);
 }
 
 
