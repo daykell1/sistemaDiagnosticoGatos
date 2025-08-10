@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas 2</title>
+    <link rel="stylesheet" type="text/css" href="perguntas02.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo-text" id="titulodados"> Perguntas gerais do seu gatinho.</h1>
+    <div class="quadrodadosgato"> 
+        <div id="campoisolado">
+            <p id="texto-pergunta">Seu gatinho está isolado ou recuado nos lugares?</p>
+            <input id="isolado" type="text" placeholder="Digite aqui"></input>
+            <script>
+                var nome = sessionStorage.getItem('nome');
+                if (nome.length>=1){
+                document.getElementById("texto-pergunta").innerHTML = `<p id="texto-pergunta">${nome} está isolado ou recuado nos lugares?</p>`
+                }
+            </script>
+            <br>
+            <button onclick="lerisolado()">&#129146;</button>
+            <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
+        </div>
+        </div>
+        <a href="/Categoria/categorias.html" class="seta-direita"><img src="/img/pataSetaDireita.png" alt="seta-direita"></a>
+        <a href="/Perguntas1/perguntas.html" class="seta-esquerda"><img src="/img/pataSetaEsquerda.png" alt="seta-esquerda"></a>
+    </div>
+    <script src="perguntas02.js"></script>
+</body>
+
+</html>

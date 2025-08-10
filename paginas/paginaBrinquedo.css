@@ -1,0 +1,75 @@
+:root {
+    --roxoClarinho: #bba9e0;
+    --roxoClaro: #aa8ce5;
+    --roxoEscuro: #3d2849;
+}
+
+@font-face {
+    font-family: 'oswald' ;
+    src: url('/font/Oswald-Bold.ttf') format('truetype') ;
+   }
+
+ @font-face {
+    font-family: 'oswald1' ;
+    src: url('/font/Oswald-Light.ttf') format(truetype)
+   }
+
+body {
+    font-family: 'oswald1', sans-serif;
+    margin: 0;
+    background-color: var(--roxoClarinho);
+    color: var(--roxoEscuro);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--roxoEscuro);
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+    color: var(--roxoEscuro);
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: var(--roxoClaro);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.card a:hover {
+    background-color: var(--roxoEscuro);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+}

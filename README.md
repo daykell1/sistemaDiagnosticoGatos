@@ -4,13 +4,6 @@ Bem-vindo ao projeto **Sistema de Diagnóstico de Gatos**, um formulário intera
 
 ---
 
-## 📷 Demonstração
-
-![Gif do sistema funcionando](caminho-do-seu-gif-aqui.gif)
-<!-- Substitua o link acima pelo caminho real do seu GIF animado com o gato piscando, por exemplo -->
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML

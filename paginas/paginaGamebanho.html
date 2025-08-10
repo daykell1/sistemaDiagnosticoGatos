@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho Game - Gatinhos</title>
+    <link rel="stylesheet" href="paginaGamebanho.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚿 Banho do Gatinho</h1>
+        <p>Responda as perguntas para deixar seu gato limpinho!</p>
+    </header>
+
+    <main>
+        <div id="game">
+            <p id="pergunta"></p>
+            <div id="opcoes"></div>
+            <p id="progresso"></p>
+        </div>
+
+        <div id="resultado" style="display:none;">
+            <h2>Resultado</h2>
+            <p id="mensagem"></p>
+            <img id="imagemGato" src="" alt="Resultado do gato">
+            <button  onclick="reiniciar()">Jogar Novamente</button>
+        </div>
+    </main>
+
+    <script src="paginagamebanho.js"></script>
+</body>
+</html>

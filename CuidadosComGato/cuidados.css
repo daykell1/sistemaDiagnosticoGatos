@@ -1,0 +1,70 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+@font-face {
+  font-family: 'oswald1';
+  src: url('/font/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('/font/Oswald-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'oswald', sans-serif;
+  background-image: url('/img/backgroundDePata.png');
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  background-color: var(--roxoClaro);
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--roxoEscuro);
+  margin: 0;
+}
+
+/* Container central */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Estilo base dos botões */
+.container a {
+  background-color: var(--roxoClaro);
+  color: var(--roxoEscuro);
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'oswald1';
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 2px solid var(--roxoEscuro);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+/* Efeito hover */
+.container a:hover {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+  border: 2px solid var(--roxoClarinho);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+
