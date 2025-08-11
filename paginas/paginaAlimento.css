@@ -50,7 +50,7 @@ body {
   justify-content: center;
 }
 
-.card {
+.cartao {
   background-color: var(--roxoClaro);
   padding: 20px;
   border-radius: 15px;
@@ -60,21 +60,21 @@ body {
   transition: transform 0.3s ease;
 }
 
-.card:hover {
+.cartao:hover {
   transform: translateY(-5px);
 }
 
-.card h3 {
+.cartao h3 {
   text-align: center;
   margin-bottom: 15px;
 }
 
-.card ul {
+.cartao ul {
   list-style: none;
   padding: 0;
 }
 
-.card ul li {
+.cartao ul li {
   margin-bottom: 8px;
   font-size: 1.05rem;
 }

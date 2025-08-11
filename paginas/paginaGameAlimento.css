@@ -1,0 +1,73 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--roxoClarinho);
+  color: var(--roxoEscuro);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: var(--roxoClaro);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#area-jogo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.item-comida {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+  padding: 15px;
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+.item-comida:hover {
+  transform: scale(1.1);
+}
+
+#pontuacao {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#btn-reiniciar {
+  background-color: var(--roxoClaro);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn-reiniciar:hover {
+  background-color: var(--roxoEscuro);
+}

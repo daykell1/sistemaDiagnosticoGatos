@@ -69,13 +69,13 @@ z-index:3;
 }
 
 .quadroConta h3{
-    margin-top:10;
+    margin-top:100px;
     position: relative;
     left: -10px;
     margin-bottom: 15px;
     padding: 10px;
     width: 80%;
-     font-size: 25px;
+    font-size: 25px;
     
    
 }
@@ -93,7 +93,7 @@ z-index:3;
     border: 2px solid var(--roxoEscuro);
     text-align: center;
     font-family:'oswald';
-    bottom: -130px;
+    bottom: -45px;
     text-decoration:none;
 }
 
@@ -104,6 +104,17 @@ z-index:3;
     border: 2px solid var(--roxoClarinho);
     
 }
+#gatodiferente{
+  top:80px;
+  font-size: 30px;
+}
+
+#cuidado{
+  top:-70px;
+      
+}
+
+
 
 #gatopreto1{
     top: 475px;
@@ -135,6 +146,27 @@ z-index:3;
 }
 
 #cuida:hover{
+  background-color: var(--roxoEscuro);
+    color: var(--roxoClarinho);
+    border: 2px solid var(--roxoClarinho);
+}
+
+#galeria{
+ position: relative;
+    background-color: var(--roxoClaro);
+    width:30%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid var(--roxoEscuro);
+    font-family:'oswald';
+    bottom: -150px;
+    text-decoration:none;
+    top:-405px;
+    left: 500px;
+
+}
+
+#galeria:hover{
   background-color: var(--roxoEscuro);
     color: var(--roxoClarinho);
     border: 2px solid var(--roxoClarinho);
