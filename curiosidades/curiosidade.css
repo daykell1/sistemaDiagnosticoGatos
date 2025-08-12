@@ -1,0 +1,38 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--roxoClarinho);
+  margin: 0;
+  padding: 0;
+}
+
+.curiosidades {
+  background-color: var(--roxoClaro);
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.curiosidades h2 {
+  color: var(--roxoEscuro);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.curiosidade-item {
+  background-color: var(--roxoClarinho);
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  color: var(--roxoEscuro);
+  font-size: 1.1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

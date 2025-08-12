@@ -1,0 +1,93 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+@font-face {
+  font-family: 'oswald1';
+  src: url('/font/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('/font/Oswald-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+     background-image: url('/img/backgroundDePata.png');
+}
+
+.castracao-gatos {
+    background: var(--roxoClaro);
+    border-radius: 16px;
+    padding: 35px 40px;
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0 6px 20px rgba(61, 40, 73, 0.6);
+    color: white;
+    font-family: 'oswald1', Arial, sans-serif;
+}
+
+.castracao-gatos header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.castracao-gatos header h2 {
+    font-family: 'oswald', Arial, sans-serif;
+    font-size: 39px;
+    margin-bottom: 15px;
+    color: var(--roxoEscuro);
+    text-shadow: 2px 2px 5px rgba(255 255 255 / 0.8);
+}
+
+.castracao-gatos header img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.castracao-gatos p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+    color: var(--roxoEscuro);
+}
+
+.castracao-gatos ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.castracao-gatos ul li {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    padding-left: 40px;
+    position: relative;
+    color: var(--roxoEscuro);
+}
+
+.castracao-gatos ul li strong {
+    font-weight: 700;
+}
+
+/* Ícones emoji como “pseudo-elementos” para alinhar melhor */
+.castracao-gatos ul li::before {
+    content: attr(data-icon);
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+/* Vamos ajustar os emojis para ficarem no atributo data-icon para alinhar melhor */
+.castracao-gatos ul li:nth-child(1)::before { content: "🐱"; }
+.castracao-gatos ul li:nth-child(2)::before { content: "❤️"; }
+.castracao-gatos ul li:nth-child(3)::before { content: "😌"; }
+.castracao-gatos ul li:nth-child(4)::before { content: "⏳"; }

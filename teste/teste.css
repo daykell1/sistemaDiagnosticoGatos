@@ -1,0 +1,83 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+body {
+  margin: 0;
+  font-family: 'oswald';
+  background-color: var(--roxoClarinho);
+  background-image: url('img/backgroundDePata.png');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+#SistemaDG {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.quadroConta {
+  background-color: var(--roxoClaro);
+  padding: 30px;
+  border-radius: 25px;
+  border: 2px solid var(--roxoEscuro);
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.quadroConta h3 {
+  color: var(--roxoEscuro);
+  margin-bottom: 15px;
+}
+
+.quadroConta p {
+  color: var(--roxoEscuro);
+  margin-bottom: 20px;
+}
+
+.btn-principal {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: var(--roxoClaro);
+  border: 2px solid var(--roxoEscuro);
+  border-radius: 30px;
+  color: var(--roxoEscuro);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-principal:hover {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+}
+
+.botoes-secundarios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botoes-secundarios a {
+  background-color: var(--roxoClaro);
+  border: 2px solid var(--roxoEscuro);
+  padding: 10px;
+  border-radius: 30px;
+  color: var(--roxoEscuro);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.botoes-secundarios a:hover {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+}
