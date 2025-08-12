@@ -322,12 +322,12 @@ function lersecrecao(){
     </div>`
     }else if(secrecao == "NÃO" || secrecao == "NAO"){
         sessionStorage.setItem('classificacao',classificacao);
-        window.location.href = "categorias.html"
+        window.location.href = "../Categoria/categorias.html"
     }
 }
 
 function lersecrecaodescricao(){
     secrecaodescricao = document.getElementById("secrecaodescricao").value.toUpperCase();
     sessionStorage.setItem('classificacao',classificacao);
-    window.location.href = "/Categoria/categorias.html"
+    window.location.href = "../Categoria/categorias.html"
 }
