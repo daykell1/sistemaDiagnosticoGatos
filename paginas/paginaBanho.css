@@ -143,6 +143,8 @@
     text-decoration: none;
     transition: 0.3s;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    position: relative;
+    left: 317px;
 }
 
 .botao-jogar:hover {
