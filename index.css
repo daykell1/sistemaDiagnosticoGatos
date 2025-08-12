@@ -93,7 +93,7 @@ z-index:3;
     border: 2px solid var(--roxoEscuro);
     text-align: center;
     font-family:'oswald';
-    bottom: -80px;
+    bottom: -120px;
     text-decoration:none;
 }
 
@@ -188,6 +188,27 @@ z-index:3;
 }
 
 #Curiosidades:hover{
+  background-color: var(--roxoEscuro);
+    color: var(--roxoClarinho);
+    border: 2px solid var(--roxoClarinho);
+}
+
+#jogos{
+  position: relative;
+    background-color: var(--roxoClaro);
+    width:30%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid var(--roxoEscuro);
+    font-family:'oswald';
+    bottom: -150px;
+    text-decoration:none;
+    top:-405px;
+    left: 500px;
+
+}
+
+#jogos:hover{
   background-color: var(--roxoEscuro);
     color: var(--roxoClarinho);
     border: 2px solid var(--roxoClarinho);

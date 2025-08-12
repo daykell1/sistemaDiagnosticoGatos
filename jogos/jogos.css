@@ -1,0 +1,84 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('/font/Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'oswald1';
+  src: url('/font/Oswald-Light.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-image: url('/img/backgroundDePata.png');
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  font-family: 'oswald', sans-serif;
+  background-color: var(--roxoClarinho);
+  color: var(--roxoEscuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'oswald', sans-serif;
+  font-weight: bold;
+  color: var(--roxoEscuro);
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.responsive-iframe {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  padding-bottom: 30%;
+  height: 0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  border: 4px solid var(--roxoClaro);
+}
+
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.btn-voltar {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background: var(--roxoClaro);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'oswald1', Arial, sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+ 
+}
+
+.btn-voltar:hover {
+  background: var(--roxoEscuro);
+}
