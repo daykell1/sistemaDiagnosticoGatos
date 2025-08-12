@@ -36,8 +36,8 @@ body {
     margin-bottom: 25px;
 }
 
-.castracao-gatos header h2 {
-    font-family: 'oswald', Arial, sans-serif;
+.castracao-gatos header h2 { 
+    font-family: 'oswald',sans-serif;
     font-size: 39px;
     margin-bottom: 15px;
     color: var(--roxoEscuro);

@@ -1,3 +1,5 @@
+
+
 const perguntas = [
     {
         texto: "Seu gatinho está muito sujo?",
@@ -79,3 +81,6 @@ function reiniciar() {
 }
 
 mostrarPergunta();
+
+
+

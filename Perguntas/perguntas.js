@@ -137,3 +137,53 @@ function lertipovomito(){
     sessionStorage.setItem('classificacao',classificacao);
     window.location.href = "../Perguntas2/perguntas02.html"
 }
+
+/* 
+////////
+///
+////////
+////
+/////
+///////
+*/  
+
+let listaCampos = ["alimento","somenteracao","jejum","qtdjejum","tipoalimentos","vomitando","tipovomito"];
+let listaPerguntas = [`Seu gatinho está se alimentando?`,`${nome} come somente ração?`,`${nome} Está sem comer a mais de 24 horas?`,`Qual a idade de ${nome}?`,`Qual é o peso de ${nome}?`];
+let atual = 0;
+function avancar(){
+    if(atual < listaCampos.length - 1){
+        document.getElementById(`campo${listaCampos[atual]}`).innerHTML = `
+        <div id="campo${listaCampos[atual + 1]}">
+        <p id="texto-pergunta">${listaPerguntas[atual+1]}</p>
+        <input id="${listaCampos[atual + 1]}" type="text" placeholder="Digite aqui"></input>
+        <br>
+        <button onclick="ler${listaCampos[atual + 1]}()">&#129146;</button>
+        <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+        
+        </div>`;
+        atual++;
+    }else{
+        window.location.href="/Perguntas/perguntas.html"
+    }
+    
+}
+
+function voltar(){
+    if(atual > 0){
+        document.getElementById(`campo${listaCampos[atual]}`).innerHTML = `
+        <div id="campo${listaCampos[atual - 1]}">
+        <p id="texto-pergunta">${listaPerguntas[atual-1]}</p>
+        <input id="${listaCampos[atual - 1]}" type="text" placeholder="Digite aqui"></input>
+        <br>
+        <button onclick="ler${listaCampos[atual - 1]}()">&#129146;</button>
+        <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+        
+        </div>`;
+        atual--;
+    }else{
+        window.location.href="/telaInicial/index.html"
+    }
+    
+}
+
+

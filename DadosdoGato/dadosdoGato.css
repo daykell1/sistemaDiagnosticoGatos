@@ -116,7 +116,11 @@ body {
     position: relative;
 }
 
-button{
+#camponome button,
+#campocastrado button,
+#camposexo button,
+#campoidade button,
+#campopeso button{
     background-color: #f391eb;
     color:#f35295;
     font-size:30px;
@@ -128,7 +132,7 @@ button{
     
 }
 
-button:hover{
+#camponome button:hover{
     background-color:#f35295;
     color:#f391eb;
 }
@@ -163,3 +167,13 @@ button:hover{
 img{
     position:absolute;
 }
+
+/*
+/
+/
+/
+/
+/
+//
+
+*/
