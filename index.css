@@ -7,12 +7,12 @@
 
  @font-face {
     font-family: 'oswald1' ;
-    src: url('/font/Oswald-Bold.ttf') format('truetype');
+    src: url('./font/Oswald-Bold.ttf') format('truetype');
    }
 
    @font-face {
     font-family: 'oswald' ;
-    src: url('/font/Oswald-Light.ttf') format('truetype');
+    src: url('./font/Oswald-Light.ttf') format('truetype');
    }
 
 body {
@@ -20,7 +20,7 @@ body {
     padding: 0;
     overflow: hidden;
     font-family: 'oswald';
-    background-image: url('img/backgroundDePata.png');
+    background-image: url('./img/backgroundDePata.png');
 }
 
 .container {
@@ -203,7 +203,7 @@ img{
   left: 0;
   width: 125px;
   height: 125px;
-  background-image: url('/img/gato.gif');
+  background-image: url('./img/gato.gif');
   background-size: contain;
   background-repeat: no-repeat;
   animation: andar 30s linear infinite;
