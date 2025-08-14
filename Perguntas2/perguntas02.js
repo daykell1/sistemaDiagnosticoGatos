@@ -331,3 +331,6 @@ function lersecrecaodescricao(){
     sessionStorage.setItem('classificacao',classificacao);
     window.location.href = "../Categoria/categorias.html"
 }
+
+
+

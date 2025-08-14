@@ -12,20 +12,24 @@
         <div class="quadrodadosgato"> 
         <div id="campoalimento">
             <p id="texto-pergunta">Seu gatinho está se alimentando?</p>
-            <input id="alimento" type="text" placeholder="Digite aqui"></input>
+            <!-- <input id="alimento" type="text" placeholder="Digite aqui"></input> -->
+            <button data-option="Sim">Sim</button>
+            <button data-option="Não">Não</button>
             <script>
                 var nome = sessionStorage.getItem('nome');
-                document.getElementById("titulodados").innerHTML = `<h1 class="titulo-text" id="titulodados"> Como está a alimentação de ${nome}.</h1>`
-                document.getElementById("texto-pergunta").innerHTML = `${nome} está se alimentando?`
+                document.getElementById("titulodados").innerHTML = `<h1 class="titulo-text" id="titulodados"> Como está a alimentação de ${nome}?</h1>`
+                document.getElementById("texto-pergunta").innerHTML = `${nome} está se alimentando?`;
+
+                
             </script>
             <br>
-            <button onclick="leralimento()">&#129146;</button>
+            <!-- <button onclick="leralimento()">&#129146;</button> -->
         </div>
         </div>
             
             <img id="gatotransparente" src="/img/gatoZeroSimpatia_transparente.gif" alt="gatotransparente">
     </div>
-     <a href= "/Perguntas2/perguntas02.html" class="seta-direita"><img src="/img/pataSetaDireita.png" alt="seta-direita"></a>
+     <!-- <a href= "/Perguntas2/perguntas02.html" class="seta-direita"><img src="/img/pataSetaDireita.png" alt="seta-direita"></a> -->
      <a href="/DadosdoGato/dadosdoGato.html" class="seta-esquerda"><img src="/img/pataSetaEsquerda.png" alt="seta-esquerda"></a>
       
     <script src="perguntas.js"></script>
