@@ -135,7 +135,7 @@ body {
     height: 150px;
 }
 
-button{
+/* button{
     background-color: #f35295;
     color:#f391eb;
     font-size:30px;
@@ -147,7 +147,40 @@ button{
 button:hover{
     background-color: #f391eb;
     color:#f35295;
+} */
+
+/* Estilo geral dos botões */
+button {
+    background-color: #f391eb;   /* cor de fundo */
+    color: #f35295;              /* cor do texto */
+    font-size: 30px;             /* tamanho da fonte */
+    width: 150px;                /* largura fixa */
+    height: 60px;                /* altura fixa */
+    border: none;                /* remove borda padrão */
+    border-radius: 35px;         /* bordas arredondadas */
+    cursor: pointer;             /* muda cursor ao passar */
+    transition: 0.3s;            /* efeito de transição */
+    text-align: center;          /* centraliza o texto horizontalmente */
+    vertical-align: middle;      /* centraliza o texto verticalmente */
+    display: inline-flex;        /* permite centralização completa */
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;         /* centraliza verticalmente */
 }
+
+/* Efeito hover */
+button:hover {
+    background-color: #f35295;
+    color: #f391eb;
+}
+
+/* Se você tiver vários botões em diferentes campos */
+ button {
+    width: 150px;  /* largura igual */
+    height: 60px;  /* altura igual */
+    font-size: 30px; /* fonte igual */
+}
+
+
 
 #gatoTransparente{
     top: 255px; 
@@ -164,78 +197,5 @@ img{
 }
 
 
-/* #gatoDormindo{
-    top: 20px; 
-    left:20px;
-    width: 400px;
-    height: 300px;
-}
-
-#gatoMorcego{
-    top: px; 
-    left: 1100px;
-    
-}
-
-#gatoNamm{
-    top:300 px; 
-    left: 600px;
-    width: 450x;
-    height: 300px;
-}
-
-#gatoAbreBoca{
-    top: 350px; 
-    left:650px;
-    width: 600x;
-    height: 300px;
-}
-
-#gatoDoente{
-    top: 350px; 
-    left:620px;
-    width: 300px;
-    height: 250px;
-}
-
-#gatoComCopoNaCabeca{
-    top: 350px; 
-    left:620px;
-    width: 300px;
-    height: 250px;
-}
-
-#gatoTriste{
-    top: 350px; 
-    left:650px;
-    width: 300px;
-    height: 250px;
-}
-
-#gatosComputador{
-    top: 350px; 
-    left:650px;
-    width: 300px;
-    height: 250px;
-}
-
-#gatoCastracao{
-    left:550px;
-    top: 300px; 
-}
-
-#gatodeoculos{
-    right: 300px;
-    top: 350px;
-    width: 300px;
-    height: 250px;
-}
-
-/* #gatoDeChapeueOculos{ */
-    /* right: 300px;
-    top: 350px;
-    /* width: 300px;
-    height: 250px; 
-} 
 
  

@@ -14,7 +14,8 @@ function lerisolado(){
     <p id="texto-pergunta">O lugar é úmido ou seco?</p>
     <input id="umidade" type="text" placeholder="Digite aqui"></input>
     <br>
-    <button onclick="lerumidade()">&#129146;</button>
+    <button onclick="lerumidade()">Umido;</button>
+    <button onclick="lerumidade()">Seco;</button>
      <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
    
 </div>`
@@ -24,7 +25,9 @@ function lerisolado(){
     <p id="texto-pergunta">${nome} está com dificuldades de locomoção?</p>
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
-    <button onclick="lerlocomocao()">&#129146;</button>
+    <button onclick="lerlocomocao()">Sim;</button>
+    <button onclick="lerlocomocao()">Não;</button>
+    <button onclick="lerlocomocao()">Um pouco;</button>
      <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
    
 </div>`
@@ -45,7 +48,9 @@ function lerumidade(){
     <p id="texto-pergunta">${nome} está com dificuldades de locomoção?</p>
     <input id="locomocao" type="text" placeholder="Digite aqui"></input>
     <br>
-    <button onclick="lerlocomocao()">&#129146;</button>
+    <button onclick="lerlocomocao()">Sim;</button>
+    <button onclick="lerlocomocao()">Não;</button>
+    <button onclick="lerlocomocao()">Um pouco;</button>
      <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
     
 </div>`
@@ -61,7 +66,8 @@ function lerlocomocao(){
         <p id="texto-pergunta">${nome} está com algum ferimento?</p>
         <input id="ferimento" type="text" placeholder="Digite aqui"></input>
         <br>
-        <button onclick="lerferimento()">&#129146;</button>
+        <button onclick="lerferimento()">Sim;</button>
+        <button onclick="lerferimento()">Não;</button>
          <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
@@ -71,7 +77,9 @@ function lerlocomocao(){
         <p id="texto-pergunta">${nome} está com dificuldades para urinar?</p>
         <input id="urina" type="text" placeholder="Digite aqui"></input>
         <br>
-        <button onclick="lerurina()">&#129146;</button>
+        <button onclick="lerurina()">Sim;</button>
+        <button onclick="lerurina()">Não;</button>
+        <button onclick="lerurina()">Um pouco;</button>
          <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
         
     </div>`
@@ -88,7 +96,8 @@ function lerferimento(){
         <p id="texto-pergunta">Qual o local do ferimento?</p>
         <input id="localferimento" type="text" placeholder="Digite aqui"></input>
         <br>
-        <button onclick="lerlocalferimento()">&#129146;</button>
+        <button onclick="lerlocalferimento()">Sim;</button>
+        <button onclick="lerlocalferimento()">Não;</button>
          <img id="gatoTransparente" src="/img/gatoEsticagif_transparente_rapido.gif" alt="gatoTransparente"></img>
        
     </div>`
@@ -330,7 +339,7 @@ function lersecrecaodescricao(){
     secrecaodescricao = document.getElementById("secrecaodescricao").value.toUpperCase();
     sessionStorage.setItem('classificacao',classificacao);
     window.location.href = "../Categoria/categorias.html"
-}
+} 
 
 
 

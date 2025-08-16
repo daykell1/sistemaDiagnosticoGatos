@@ -116,7 +116,7 @@ body {
     position: relative;
 }
 
-#camponome button,
+/* #camponome button,
 #campocastrado button,
 #camposexo button,
 #campoidade button,
@@ -135,7 +135,43 @@ body {
 #camponome button:hover{
     background-color:#f35295;
     color:#f391eb;
+} */
+
+/* Estilo geral dos botões */
+button {
+    background-color: #f391eb;   /* cor de fundo */
+    color: #f35295;              /* cor do texto */
+    font-size: 30px;             /* tamanho da fonte */
+    width: 150px;                /* largura fixa */
+    height: 60px;                /* altura fixa */
+    border: none;                /* remove borda padrão */
+    border-radius: 35px;         /* bordas arredondadas */
+    cursor: pointer;             /* muda cursor ao passar */
+    transition: 0.3s;            /* efeito de transição */
+    text-align: center;          /* centraliza o texto horizontalmente */
+    vertical-align: middle;      /* centraliza o texto verticalmente */
+    display: inline-flex;        /* permite centralização completa */
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;         /* centraliza verticalmente */
 }
+
+/* Efeito hover */
+button:hover {
+    background-color: #f35295;
+    color: #f391eb;
+}
+
+/* Se você tiver vários botões em diferentes campos */
+#camponome button,
+#campocastrado button,
+#camposexo button,
+#campoidade button,
+#campopeso button {
+    width: 150px;  /* largura igual */
+    height: 60px;  /* altura igual */
+    font-size: 30px; /* fonte igual */
+}
+
 
 
 .nome-destaque {

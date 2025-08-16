@@ -158,9 +158,9 @@ function lersomenteracao(){
         //console.log(classificacao)
         document.getElementById("camposomenteracao").outerHTML = `
         <div id="campotipoalimentos">
-        <p id="texto-pergunta">${nome} come que tipo de alimentos?</p>
-        <button data-option="Sim">Sim</button>
-        <button data-option="Não">Não</button>
+        <p id="texto-pergunta">${nome} come que tipos de alimentos?</p>
+        <button data-option="Comida humana">Comida humana</button>
+        <button data-option="Comida para gatos">Comida para gatos</button>
         
         
     </div>`
@@ -224,5 +224,5 @@ function lertipovomito(){
         //console.log(classificacao)
     }
     sessionStorage.setItem('classificacao',classificacao);
-    window.location.href = "../Perguntas2/perguntas02.html";
+    window.location.href = "../Perguntas2/teste.html";
 }
