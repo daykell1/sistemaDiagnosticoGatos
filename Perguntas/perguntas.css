@@ -136,6 +136,7 @@ button:hover{
 
 /* Estilo geral dos botões */
 button {
+    
     background-color: #f391eb;   /* cor de fundo */
     color: #f35295;              /* cor do texto */
     font-size: 30px;             /* tamanho da fonte */
@@ -150,6 +151,7 @@ button {
     display: inline-flex;        /* permite centralização completa */
     justify-content: center;     /* centraliza horizontalmente */
     align-items: center;         /* centraliza verticalmente */
+    box-sizing: content-box;
 }
 
 /* Efeito hover */

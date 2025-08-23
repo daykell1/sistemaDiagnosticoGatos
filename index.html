@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teladeinicio</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Início</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <img id="SistemaDG" src="./img/SistemaDG.png" alt="SistemaDG">
-        <div class="quadroConta">
-            <br>
-            <h3 id = "gatodiferente">Descubra o que seu gato está sentindo.</h3>
-            <h3 id =" sentindo"> Seu gatinho está diferente? Com apenas alguns cliques, você responde perguntas simples sobre os sintomas
-e recebe uma análise rápida com possíveis causas.</h3>
-           <h3 id = "cuidado"> Cuide de quem te faz companhia todos os dias.</h3>
-            <!-- <a href="/CriarConta/criarConta.html">  Comece agora o diagnóstico!</a> -->
-             <a href="./DadosdoGato/dadosdoGato.html">  Comece agora o diagnóstico!</a>
-            <img id="gatopreto1" src="./img/gatopreto1.png" alt="gatopreto1">
-            <img id="gatopreto" src="./img/gatoOlho.png" alt="gatopreto">
+  <div class="container">
+    <!-- Logo -->
+    <img id="SistemaDG" src="/img/gatoScan.png" alt="SistemaDG">
+    <h1 id="gatodiferente">Descubra o que seu gato está sentindo 🐾</h1>
+    <!-- Quadro principal -->
+    <div class="quadroConta">
+       <h3> Com apenas alguns cliques, 
+        você responde perguntas simples sobre os sintomas
+        e recebe uma análise rápida com possíveis causas.
+      </h3>
+      <h3 id="cuidado">Cuide de quem te faz companhia todos os dias 🐱</h3>
 
-            <a id= "cuida" href="./CuidadosComGato/cuidados.html"> Dicas para cuidar do seu gato</a>
-            <br>
-            <a id= "galeria" href="./galeria/galeria.html"> Galeria de Gatinhos</a>
-            <br>
-            <a id= "Curiosidades" href="./curiosidades/curiosidade.html"> Curiosidades</a>
-            <br>
-            <a id= "jogos" href="./jogos/jogos.html"> jogos</a>
-            
-        </div>
-       
+      <!-- Imagens dentro do quadro -->
+     
+    
+        <img id="gatoOlho" src="/img/gatoOlhao.png" alt="gatoOlho"></img>
+        <img id="gatopreto1" src="/img/gatopreto1.png" alt="gatopreto1"></img>
+        <div class="gato"></div>
+    </div>
+
+    <!-- Botão diagnóstico abaixo do quadro -->
+    <a class="botao-diagnostico" href="./DadosdoGato/dadosdoGato.html">
+      Comece agora o diagnóstico!</a>
+
+    <div class="botoes-lateral">
+        <a id="cuida" href="/CuidadosComGato/cuidados.html">Cuidados</a>
+        <a id="galeria" href="/galeria/galeria.html">Galeria</a>
+        <a id="Curiosidades" href="/curiosidades/curiosidade.html">Curiosidades</a>
+        <a id="jogos" href="/jogos/jogos.html">Jogos</a>
 
     </div>
-    <div class="gato" id="gato"></div>
-</body>
-</html>
+
+</div>
+

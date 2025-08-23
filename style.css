@@ -1,0 +1,282 @@
+:root{
+    /* Cores da tela de login */
+    --roxoClarinho: #bba9e0;
+    --roxoClaro: #aa8ce5;
+    --roxoEscuro: #3d2849;
+}
+
+@font-face {
+    font-family: 'oswald1';
+    src: url('./font/Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('./font/Oswald-Light.ttf') format('truetype');
+}
+
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--roxoClarinho);
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.container {
+  width: 90%;                 /* ocupa quase toda a largura da tela */
+  max-width: 900px;           /* largura máxima do retângulo */
+  min-height: 80vh;           /* altura maior que as laterais */
+  /* background-color: var(--roxoClaro);  */
+  background-image: url("/img/Login.gif");
+  border-radius: 20px;        /* cantos arredondados */
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--roxoEscuro);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.15); /* sombra pra destacar */
+  margin: 20px auto;          /* centraliza horizontalmente */
+   border: 2px solid var(--roxoEscuro);
+}
+
+
+/* ===== LOGO ===== */
+#SistemaDG {
+  width: 30%;
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+/* ===== QUADRO ===== */
+.quadroConta {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  background-color: #C49FE6;
+  /* background-color: var(--roxoClarinho); */
+  border-radius: 20px;
+  border: 2px solid var(--roxoEscuro);
+  padding: 30px 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 6px 12px rgba(236, 155, 155, 0.15);
+}
+
+
+
+.quadroConta h3 {
+  margin: 15px 0;
+  font-size: clamp(20px, 2vw, 24px);
+  color: var(--roxoEscuro);
+  line-height: 1.4;
+}
+
+/* ===== BOTÃO DIAGNÓSTICO ===== */
+.botao-diagnostico {
+  margin-top: 25px;
+  background-color: var(--roxoEscuro);
+  border-radius: 30px;
+  padding: 12px 25px;
+  border: 2px solid var(--roxoClarinho);
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--roxoClarinho);
+  transition: 0.3s;
+}
+
+.botao-diagnostico:hover {
+  background-color: var(--roxoClarinho);
+  color: var(--roxoEscuro);
+  border: 2px solid var(--roxoEscuro);
+}
+
+/* ===== LATERAL ESQUERDA ===== */
+.botoes-lateral {
+  position: fixed;
+  top: 35%;
+  right: 7%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 5;
+}
+
+.botoes-lateral a {
+  background-color: var(--roxoClaro);
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 2px solid var(--roxoEscuro);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--roxoEscuro);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.botoes-lateral a:hover {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+  border: 2px solid var(--roxoClarinho);
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .botoes-lateral {
+    left: 10px;
+    gap: 10px;
+  }
+
+  .botoes-lateral a {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+}
+
+/* ===== GATO ANIMADO ===== */
+.gato {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 125px;
+  height: 125px;
+  background-image: url('./img/gato.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: andar 30s linear infinite;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  #SistemaDG {
+    width: 70%;
+  }
+
+  .quadroConta {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .imagens-quadro img {
+    width: 45%;
+    max-width: 150px;
+  }
+
+  .botao-diagnostico {
+    width: 80%;
+    max-width: 280px;
+  }
+
+  .botoes-container {
+    left: 10px;
+    gap: 10px;
+  }
+
+  .botoes-container a {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+}
+
+/* ===== GATOS (PROPORCIONAIS) ===== */
+#gatoOlho {
+  position: absolute;
+  top: 15%;
+  left: 8.40%;
+  width: clamp(100px, 15vw, 200px); /* largura adaptável */
+  height: auto;                     /* mantém proporção */
+}
+
+#gatopreto1 {
+  position: absolute;
+  top: 79%;
+  right: 16.70%;
+  width: clamp(80px, 10vw, 150px);
+  height: auto;
+}
+
+/* ===== MEDIA QUERIES EXTRAS ===== */
+@media (max-width: 480px) {
+  #gatoOlho {
+    top: 10%;
+    left: 5%;
+    width: clamp(80px, 40vw, 180px);
+  }
+
+  #gatopreto1 {
+    top: 32%;
+    right: 5%;
+    width: clamp(60px, 30vw, 140px);
+  }
+}
+
+@media (min-width: 1440px) {
+  #gatoOlho {
+    width: clamp(150px, 12vw, 300px);
+  }
+
+  #gatopreto1 {
+    width: clamp(120px, 8vw, 250px);
+  }
+}
+
+/*gato andando na tela*/
+
+@keyframes andar {
+  0% {
+    left: -100px;
+    bottom:20px;
+    transform: scaleX(1);
+  }
+
+  25% {
+    left: 100vw;
+    bottom:20px;
+    transform: scaleX(1); /* Indo para a direita */
+  }
+
+  26% {
+    bottom:300px;
+    left:100vw;
+    transform: scaleX(-1); /* Indo para a direita */
+  }
+
+
+  50% {
+    bottom:300px;
+    transform: scaleX(-1);
+    left: -100px; /* Vira para voltar */
+  }
+
+  51% {
+    bottom:600px;
+    transform: scaleX(1);
+    left: -100px; /* Vira para voltar */
+  }
+
+  75%{
+    bottom:600px;
+    transform: scaleX(1);
+    left:100vw;
+  }
+
+  76%{
+    bottom:20px;
+    left: 100vw;
+    transform: scaleX(-1);
+  }
+
+
+
+  100% {
+    left: -100px;
+    bottom:20px;
+    transform: scaleX(-1);
+  }
+}
+
+

@@ -99,7 +99,6 @@ body {
     justify-content:center;
     align-items:center;
     width:100%;
-    padding:20px;
     margin: 0 auto;
    
 }
@@ -174,6 +173,8 @@ button:hover {
 
 
 
+
+
 .nome-destaque {
     color: #ee597f; /* ou qualquer cor que você quiser */
     font-weight: bold;
@@ -195,9 +196,10 @@ button:hover {
 }
 
 #gatoTransparente{
-     top:372px;
-    left:140px;
-    height:100px;
+    position: absolute;
+     top:72%;
+    left:40%;
+    height:40%;
 }
 
 img{

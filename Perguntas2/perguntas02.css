@@ -183,8 +183,9 @@ button:hover {
 
 
 #gatoTransparente{
-    top: 255px; 
-    left:20px;
+    position: absolute;
+    top: 70%; 
+    left:40%;
     width: 200px;
     height: 200px; 
 }

@@ -31,7 +31,7 @@ function ler(){
         //     lertipoalimentos();
     }else
 
-    if(document.getElementById("campotipoalimento")){
+    if(document.getElementById("campotipoalimentos")){
     
         lertipoalimentos();
     }else
@@ -121,9 +121,9 @@ function lerjejum(){
         document.getElementById("campojejum").outerHTML = `
         <div id="campoqtdjejum">
         <p id="texto-pergunta">${nome} está sem comer há quanto tempo?</p>
-        <button data-option="Sim">Sim</button>
-        <button data-option="Não">Não</button>
-        
+        <button data-option="2">2 dias</button>
+        <button data-option="4">4 dias</button>
+        <button data-option="7">7 dias</button>
        
     </div>`
     }
@@ -133,7 +133,12 @@ function lerjejum(){
 function lerqtdjejum(){
     qtdjejum = valor;
     valor = 0;
-    classificacao += qtdjejum * 3
+    if(qtdjejum === "2")
+        classificacao += 1;
+    else if(qtdjejum === "4")
+        classificacao += 2;
+    else if(qtdjejum === "7")
+        classificacao += 4;
     //console.log(classificacao)
     document.getElementById("campoqtdjejum").outerHTML = `
         <div id="campovomitando">
@@ -159,7 +164,7 @@ function lersomenteracao(){
         document.getElementById("camposomenteracao").outerHTML = `
         <div id="campotipoalimentos">
         <p id="texto-pergunta">${nome} come que tipos de alimentos?</p>
-        <button data-option="Comida humana">Comida humana</button>
+        <button data-option="Comida de humanos">Comida de humanos</button>
         <button data-option="Comida para gatos">Comida para gatos</button>
         
         
@@ -180,6 +185,9 @@ function lersomenteracao(){
 function lertipoalimentos(){
     tipoalimentos = valor;
     valor= 0;
+    if(tipoalimentos == "Comida de humanos".toUpperCase())
+        classificacao += 1;
+
     document.getElementById("campotipoalimentos").outerHTML = `
         <div id="campovomitando">
         <p id="texto-pergunta">${nome} está vomitando ou com náuseas?</p>
@@ -224,5 +232,5 @@ function lertipovomito(){
         //console.log(classificacao)
     }
     sessionStorage.setItem('classificacao',classificacao);
-    window.location.href = "../Perguntas2/teste.html";
+    window.location.href = "../Perguntas2/perguntas02.html";
 }

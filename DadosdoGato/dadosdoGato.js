@@ -6,6 +6,14 @@ function lergatoescondido(){
     
 }
 
+document.getElementById("nome").addEventListener("keydown",(event)=>{
+    if(event.key === "Enter"){
+        lernome();
+    }
+});
+
+
+
 function lernome() {
     nome = document.getElementById("nome").value;
     sessionStorage.setItem('nome',nome);
@@ -19,7 +27,7 @@ function lernome() {
             <button data-option="Sim">Sim</button>
             <button data-option="Não">Não</button>
             <button data-option="Não sei">Não sei</button>
-            <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+            <img id="gatoTransparente" src="/img/gato_animado_novo (1).gif" alt="gatoTransparente"></img>
         </div>
     `
     document.querySelectorAll("button").forEach(botao => {
@@ -31,8 +39,8 @@ function lernome() {
     });
 
     
+
 }
-//  <img id="gatoCastracao" src="img/gatoCastracao.png" alt="gatoCastracao"></img>
 
 function lercastrado() {
     castrado = valor;
@@ -69,7 +77,6 @@ function lerpeso() {
     }
     console.log("nome" + nome +",castrado: "+castrado + ",sexo: "+sexo+",idade: "+idade+",peso: "+peso);
 
-    // document.getElementById("campopeso").innerHTML += `<img id="gatosPeso" src="img/gatosPeso.png" alt="gatosPeso">`
     
 }
 
@@ -91,9 +98,25 @@ function avancar(){
             <input id="${listaCampos[atual + 1]}" type="text" placeholder="Digite aqui"></input>
             <br>
             <button onclick="ler${listaCampos[atual + 1]}()">&#129146;</button>
-            <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+            <img id="gatoTransparente" src="/img/gato_animado_novo (1).gif" alt="gatoTransparente"></img>
             
             </div>`;
+
+            if(listaCampos[atual+1] == "idade"){
+                document.getElementById("idade").addEventListener("keydown",(event)=>{
+                if(event.key === "Enter"){
+                    leridade();
+                }
+            });
+            }
+
+            if(listaCampos[atual+1] == "peso"){
+                document.getElementById("peso").addEventListener("keydown",(event)=>{
+                if(event.key === "Enter"){
+                    lerpeso();
+                }
+            });
+            }
             
         }
         else
@@ -114,7 +137,7 @@ function avancar(){
             <button data-option="${opcao1}">${opcao1}</button>
             <button data-option="${opcao2}">${opcao2}</button>
             <button data-option="Não sei">Não sei</button>
-            <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+            <img id="gatoTransparente" src="/img/gato_animado_novo (1).gif" alt="gatoTransparente"></img>
             </div>`;
 
             document.querySelectorAll("button").forEach(botao => {
@@ -150,7 +173,7 @@ function voltar(){
         <input id="${listaCampos[atual - 1]}" type="text" placeholder="Digite aqui"></input>
         <br>
         <button onclick="ler${listaCampos[atual - 1]}()">&#129146;</button>
-        <img id="gatoTransparente" src="/img/gato_transparente.gif" alt="gatoTransparente"></img>
+        <img id="gatoTransparente" src="/img/gato_animado_novo (1).gif" alt="gatoTransparente"></img>
         
         </div>`;
         atual--;
