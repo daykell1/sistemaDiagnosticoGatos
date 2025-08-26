@@ -9,55 +9,85 @@
 <body>
   <div class="container">
     <!-- Logo -->
-    <img id="SistemaDG" src="/img/gatoScan.png" alt="SistemaDG">
-    <h1>Adoção de Gatos 🐾</h1>
-    <p id="descricao">Encontre um novo amigo para alegrar sua vida!</p>
+    <div class="logo">
+      <img src="/img/gatoScan.png" alt="Logo GatoScan">
+      <h1>Adoção de Gatos 🐾</h1>
+      <p>Escolha seu novo companheiro com carinho 💜</p>
+    </div>
 
-    <!-- Filtros de pesquisa -->
+    <!-- Filtros -->
     <div class="filtros">
-      <select>
+      <select id="filtro-sexo">
         <option value="">Sexo</option>
-        <option value="macho">Macho</option>
-        <option value="femea">Fêmea</option>
+        <option value="Macho">Macho</option>
+        <option value="Fêmea">Fêmea</option>
       </select>
 
-      <select>
+      <select id="filtro-idade">
         <option value="">Idade</option>
-        <option value="filhote">Filhote</option>
-        <option value="adulto">Adulto</option>
-        <option value="idoso">Idoso</option>
+        <option value="Filhote">Filhote</option>
+        <option value="Adulto">Adulto</option>
+        <option value="Idoso">Idoso</option>
       </select>
 
-      <input type="text" placeholder="Buscar por nome...">
-      <button class="botao-filtrar">Filtrar</button>
+      <input type="text" id="busca-nome" placeholder="Buscar por nome...">
+      <button id="botao-filtrar">Filtrar</button>
     </div>
 
     <!-- Lista de gatos -->
-    <div class="lista-gatos">
-      <div class="card-gato">
-        <img src="/img/gato1.jpg" alt="Gato 1">
+    <!-- <div class="gatos-container" id="gatos-container">
+      <div class="gato-card" data-sexo="Fêmea" data-idade="Filhote" data-nome="Luna">
+        <img src="/img/gatoFilhote.png" alt="Gato filhote">
         <h3>Luna</h3>
         <p>Fêmea • Filhote</p>
-        <a href="#" class="botao-adotar">Adotar</a>
+        <button class="adotar">♡ Adotar</button>
       </div>
 
-      <div class="card-gato">
-        <img src="/img/gato2.jpg" alt="Gato 2">
+      <div class="gato-card" data-sexo="Macho" data-idade="Adulto" data-nome="Thor">
+        <img src="/img/gatoAdulto.png" alt="Gato adulto">
         <h3>Thor</h3>
         <p>Macho • Adulto</p>
-        <a href="#" class="botao-adotar">Adotar</a>
+        <button class="adotar">♡ Adotar</button>
       </div>
 
-      <div class="card-gato">
-        <img src="/img/gato3.jpg" alt="Gato 3">
+      <div class="gato-card" data-sexo="Fêmea" data-idade="Idoso" data-nome="Mel">
+        <img src="/img/gatoIdoso.png" alt="Gato idoso">
         <h3>Mel</h3>
         <p>Fêmea • Idosa</p>
-        <a href="#" class="botao-adotar">Adotar</a>
+        <button class="adotar">♡ Adotar</button>
       </div>
-    </div>
+    </div> -->
+
+    <div class="gatos-container" id="gatos-container">
+  <div class="gato-card" data-sexo="Fêmea" data-idade="Filhote" data-nome="Luna">
+    <img src="/img/gatoFilhote.png" alt="Gato filhote">
+    <h3>Luna</h3>
+    <p>Fêmea • Filhote</p>
+    <button class="adotar" data-page="Luna.html">♡ Adotar</button>
+  </div>
+
+  <div class="gato-card" data-sexo="Macho" data-idade="Adulto" data-nome="Thor">
+    <img src="/img/gatoAdulto.png" alt="Gato adulto">
+    <h3>Thor</h3>
+    <p>Macho • Adulto</p>
+    <button class="adotar" data-page="Thor.html">♡ Adotar</button>
+  </div>
+
+  <div class="gato-card" data-sexo="Fêmea" data-idade="Idoso" data-nome="Mel">
+    <img src="/img/gatoIdoso.png" alt="Gato idoso">
+    <h3>Mel</h3>
+    <p>Fêmea • Idosa</p>
+    <button class="adotar" data-page="Mel.html">♡ Adotar</button>
+  </div>
+</div>
+
 
     <!-- Botão voltar -->
-    <a class="botao-voltar" href="/index.html">⬅ Voltar</a>
+    <div class="voltar">
+      <a href="/index.html">← Voltar</a>
+    </div>
   </div>
+
+  <script src="Adocao.js"></script>
 </body>
 </html>

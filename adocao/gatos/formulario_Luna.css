@@ -1,0 +1,71 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url(/img/backgroundDePata.png);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #3d2849;
+}
+
+p {
+  text-align: center;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3d2849;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  background: #3d2849;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #5a3a6d;
+}
+
+.contato {
+  margin-top: 25px;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.contato h2 {
+  color: #3d2849;
+  margin-bottom: 10px;
+  text-align: center;
+}

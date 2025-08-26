@@ -1,0 +1,52 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(135deg, #bba9e0, #d9c6f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 25px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.gato-feliz {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #3d2849;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #3d2849;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.btn-voltar {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #3d2849;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background-color: #aa8ce5;
+  color: #3d2849;
+}
