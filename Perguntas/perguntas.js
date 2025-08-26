@@ -205,7 +205,7 @@ function lervomitando(){
     if (vomitando == "NAO" ||vomitando == "NÃO"){
         sessionStorage.setItem('classificacao',classificacao);
         
-        window.location.href = "../Perguntas2/perguntas02.html"
+        window.location.href = "../Perguntas2/teste.html"
     }else if(vomitando == "SIM"){
         classificacao += 3
         //console.log(classificacao)
@@ -232,5 +232,5 @@ function lertipovomito(){
         //console.log(classificacao)
     }
     sessionStorage.setItem('classificacao',classificacao);
-    window.location.href = "../Perguntas2/perguntas02.html";
+    window.location.href = "../Perguntas2/teste.html";
 }

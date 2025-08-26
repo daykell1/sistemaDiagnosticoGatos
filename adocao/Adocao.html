@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoção de Gatos</title>
+  <link rel="stylesheet" href="Adocao.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img id="SistemaDG" src="/img/gatoScan.png" alt="SistemaDG">
+    <h1>Adoção de Gatos 🐾</h1>
+    <p id="descricao">Encontre um novo amigo para alegrar sua vida!</p>
+
+    <!-- Filtros de pesquisa -->
+    <div class="filtros">
+      <select>
+        <option value="">Sexo</option>
+        <option value="macho">Macho</option>
+        <option value="femea">Fêmea</option>
+      </select>
+
+      <select>
+        <option value="">Idade</option>
+        <option value="filhote">Filhote</option>
+        <option value="adulto">Adulto</option>
+        <option value="idoso">Idoso</option>
+      </select>
+
+      <input type="text" placeholder="Buscar por nome...">
+      <button class="botao-filtrar">Filtrar</button>
+    </div>
+
+    <!-- Lista de gatos -->
+    <div class="lista-gatos">
+      <div class="card-gato">
+        <img src="/img/gato1.jpg" alt="Gato 1">
+        <h3>Luna</h3>
+        <p>Fêmea • Filhote</p>
+        <a href="#" class="botao-adotar">Adotar</a>
+      </div>
+
+      <div class="card-gato">
+        <img src="/img/gato2.jpg" alt="Gato 2">
+        <h3>Thor</h3>
+        <p>Macho • Adulto</p>
+        <a href="#" class="botao-adotar">Adotar</a>
+      </div>
+
+      <div class="card-gato">
+        <img src="/img/gato3.jpg" alt="Gato 3">
+        <h3>Mel</h3>
+        <p>Fêmea • Idosa</p>
+        <a href="#" class="botao-adotar">Adotar</a>
+      </div>
+    </div>
+
+    <!-- Botão voltar -->
+    <a class="botao-voltar" href="/index.html">⬅ Voltar</a>
+  </div>
+</body>
+</html>

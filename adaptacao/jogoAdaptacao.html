@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuide do Gatinho 🐱</title>
+  <link rel="stylesheet" href="jogoAdaptacao.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Cuide do Gatinho 🐱</h1>
+
+    <section class="cat-area">
+      <img id="gatinho" src="img/gato-neutro.png" alt="Gatinho" />
+      <p id="status">O gatinho está neutro 😐</p>
+    </section>
+
+    <section class="controls">
+      <button id="btnAlimentar" class="btn">🍖 Alimentar</button>
+      <button id="btnCarinho" class="btn">💖 Carinho</button>
+      <button id="btnBrincar" class="btn">🎾 Brincar</button>
+    </section>
+
+    <section class="bars">
+      <div class="bar">
+        <span>Fome</span>
+        <div class="track"><div id="barFome" class="fill" style="width: 60%"></div></div>
+      </div>
+      <div class="bar">
+        <span>Carinho</span>
+        <div class="track"><div id="barCarinho" class="fill" style="width: 50%"></div></div>
+      </div>
+      <div class="bar">
+        <span>Diversão</span>
+        <div class="track"><div id="barDiversao" class="fill" style="width: 40%"></div></div>
+      </div>
+    </section>
+
+    <a href="index.html" class="btn-voltar">⬅ Voltar</a>
+  </main>
+
+  <script src="jogoAdaptacao.js"></script>
+</body>
+</html>

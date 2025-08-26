@@ -1,0 +1,118 @@
+@import url('style.css'); /* usa as cores e fontes já definidas */
+
+/* ===== TÍTULO E DESCRIÇÃO ===== */
+h1 {
+  color: var(--roxoEscuro);
+  text-align: center;
+  margin-top: 10px;
+}
+
+#descricao {
+  text-align: center;
+  color: var(--roxoEscuro);
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* ===== FILTROS ===== */
+.filtros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.filtros select,
+.filtros input {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 2px solid var(--roxoEscuro);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+}
+
+.botao-filtrar {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+  border: 2px solid var(--roxoClarinho);
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-filtrar:hover {
+  background-color: var(--roxoClaro);
+  color: var(--roxoEscuro);
+}
+
+/* ===== LISTA DE GATOS ===== */
+.lista-gatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-gato {
+  background-color: #C49FE6;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid var(--roxoEscuro);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-gato img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card-gato h3 {
+  margin: 10px 0 5px;
+  color: var(--roxoEscuro);
+}
+
+.card-gato p {
+  margin: 0 0 10px;
+  color: var(--roxoEscuro);
+  font-size: 0.9rem;
+}
+
+.botao-adotar {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.botao-adotar:hover {
+  background-color: var(--roxoClaro);
+  color: var(--roxoEscuro);
+}
+
+/* ===== BOTÃO VOLTAR ===== */
+.botao-voltar {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 10px;
+  padding: 10px 20px;
+  background-color: var(--roxoClaro);
+  color: var(--roxoEscuro);
+  border-radius: 30px;
+  text-decoration: none;
+  border: 2px solid var(--roxoEscuro);
+  transition: 0.3s;
+}
+
+.botao-voltar:hover {
+  background-color: var(--roxoEscuro);
+  color: var(--roxoClarinho);
+}
