@@ -1,4 +1,4 @@
-# Sistema de Diagnóstico de Gatos 🐱
+# GatoScan 🐱
 
 ## Sobre o projeto
 
@@ -12,7 +12,7 @@ O site traz informações importantes sobre cuidados, adaptação e castração 
 - Dicas de adaptação de novos gatos ao ambiente  
 - Informações sobre a importância da castração  
 - Jogos interativos para diversão dos usuários  
-- Design responsivo e interface amigável  
+- Uma parte dedicada a Adoção.
 
 ## Tecnologias utilizadas
 

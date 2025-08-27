@@ -1,0 +1,90 @@
+:root {
+  --roxoClarinho: #bba9e0;
+  --roxoClaro: #aa8ce5;
+  --roxoEscuro: #3d2849;
+}
+
+@font-face {
+  font-family: 'oswald1';
+  src: url('./font/Oswald-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'oswald1', sans-serif;
+  background: linear-gradient(135deg, var(--roxoClaro), var(--roxoClarinho));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  padding: 25px;
+  text-align: center;
+}
+
+.cat-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.cat-name {
+  font-size: 2.2em;
+  color: var(--roxoEscuro);
+  margin: 10px 0;
+}
+
+.cat-sub {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #333;
+}
+
+.info p {
+  margin: 6px 0;
+}
+
+.desc {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.desc h2 {
+  color: var(--roxoEscuro);
+  margin-bottom: 10px;
+}
+
+.btn-adotar{
+  background: var(--roxoEscuro);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-adotar:hover {
+  background: var(--roxoClaro);
+}

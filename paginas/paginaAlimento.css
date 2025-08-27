@@ -115,3 +115,25 @@ body {
     background-color: #24162b;
     transform: scale(1.05);
 }
+
+.btn-voltar {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--roxoEscuro);
+  color: #ffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'oswaldo', sans-serif;
+  z-index: 1000;
+}
+
+/* Efeito hover */
+.btn-voltar:hover {
+  background-color: var(--roxoClaro);
+  transform: translateY(-3px);
+}
